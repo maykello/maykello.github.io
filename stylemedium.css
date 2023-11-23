@@ -107,7 +107,8 @@ body
 header
 {
     margin-top: 25px;
-    width:60%;
+    margin-left:35px;
+    width:70%;
     float:right;
     text-align: left;
 }
