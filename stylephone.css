@@ -1,0 +1,143 @@
+*
+{
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.bold
+{
+    font-weight: bold;
+}
+
+h1
+{
+    letter-spacing: 8px;
+    font-weight: normal;
+    font-size:300%;
+}
+
+header h4
+{
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+aside h3
+{
+    border-bottom: 1px solid gray;
+}
+
+#profil
+{
+    width:35%;
+    display: flex;
+    justify-content: center;
+}
+
+aside img:first-child
+{
+    width:180px;
+    border:1px solid black;
+    border-radius: 50%;
+    z-index: 1;
+    margin-left: 100px;
+    margin-right:25%;
+    margin-top: 10%;
+}
+
+aside div#trzeci ul
+{
+    margin-right:20px;
+    margin-top:320px;
+}
+
+aside div#czwarty ul
+{
+    margin-right:20px;
+    margin-top:50px;
+}
+
+aside ul#kontakt
+{
+    margin-right:10px;
+    margin-top:65px;
+    margin-left:40px;
+}
+
+aside div#trzeci ul
+{
+    margin-right:20px;
+    margin-top:60px;
+
+}
+
+aside div#czwarty ul
+{
+    margin-right:20px;
+    margin-top:40px;
+}
+
+#pierwszy li
+{
+    list-style-type: none;
+}
+
+aside
+{
+    width: 100%;
+    background-color: rgb(30, 28, 41);
+    color:white;
+    clear:both;
+    height:900px;
+}
+
+#pasek
+{
+    width:35px;
+    margin-top:-470px;
+    margin-left: 30px;
+    background-color: gold;
+    height: 460px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    display:grid;
+    grid-template-rows: 50% 1fr 1fr 1fr 1fr;
+    align-items: center;
+    position:absolute;
+}
+
+#pasek img
+{
+   margin:auto;
+}
+
+body
+{
+    width:95%;
+    margin:auto;
+
+}
+
+header
+{
+    margin-top: 25px;
+    margin-left:auto;
+    margin-right:auto;
+    width:70%;
+    clear:both;
+    text-align: center;
+}
+
+a
+{
+    text-decoration: none;
+    color:white;
+}
+
+
+
+main
+{
+    margin-left: 10px;
+    float:left;
+    width:90%;
+}

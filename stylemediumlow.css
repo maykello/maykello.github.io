@@ -1,0 +1,126 @@
+*
+{
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.bold
+{
+    font-weight: bold;
+}
+
+h1
+{
+    letter-spacing: 8px;
+    font-weight: normal;
+    font-size:300%;
+}
+
+header h4
+{
+    font-weight: bold;
+    letter-spacing: 8px;
+}
+
+aside h3
+{
+    border-bottom: 1px solid gray;
+}
+
+#profil
+{
+    width:35%;
+    display: flex;
+    justify-content: center;
+}
+
+aside img:first-child
+{
+    width:170px;
+    border:1px solid black;
+    border-radius: 50%;
+    z-index: 1;
+    margin-left: 90px;
+    margin-top: 10%;
+}
+
+aside ul#kontakt
+{
+    margin-right:10px;
+    margin-top:65px;
+    margin-left:40px;
+    position: absolute;
+}
+
+aside div#trzeci ul
+{
+    margin-right:60px;
+    margin-top:320px;
+    float:left;
+}
+
+aside div#czwarty ul
+{
+    margin-right:60px;
+    margin-top:70px;
+    float:left;
+}
+
+#pierwszy li
+{
+    list-style-type: none;
+}
+
+aside
+{
+    width: 39%;
+    background-color: rgb(30, 28, 41);
+    color:white;
+    float:left;
+    height:1300px;
+}
+
+#pasek
+{
+    width:35px;
+    margin-top:-170px;
+    margin-left: 30px;
+    background-color: gold;
+    height: 470px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    display:grid;
+    grid-template-rows: 48% 1fr 1fr 2fr 2fr;
+    align-items: center;
+    position:absolute;
+}
+
+#pasek img
+{
+   margin:auto;
+}
+
+body
+{
+    width:auto;
+}
+
+header
+{
+    margin-top: 25px;
+    width:55%;
+    float:right;
+    text-align: left;
+}
+
+a
+{
+    text-decoration: none;
+    color:white;
+}
+
+main
+{
+    margin-left: 35px;
+    float:left;
+    width:50%;
+}
